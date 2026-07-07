@@ -1,0 +1,32 @@
+# ── C++ build artifacts ──────────────────────────────────────────
+build/
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.tlog
+*.recipe
+*.lastbuildstate
+
+# ── Python cache ─────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Generated backtest outputs (large files) ─────────────────────
+*.csv
+*.png
+*.bin
+*.npz
+
+# ── IDE / Editor ─────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
